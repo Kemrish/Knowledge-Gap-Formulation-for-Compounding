@@ -58,7 +58,7 @@ Week-12/
 1. [One Forward Pass: What a Qwen2.5-7B Judge Actually Costs at Inference](https://open.substack.com/pub/kemeriyamajor/p/one-forward-pass-what-a-qwen25-7b?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 1, Inference-time mechanics
 
 ### Tweet Threads
-1. Day 1 — [thread.md](pair_DAY_1/thread.md) *(add URL after posting)*
+1. Day 1 — https://www.linkedin.com/feed/update/urn:li:activity:7457145552091299840/
 
 ---
 
@@ -77,8 +77,3 @@ Week-12/
 | 1 | ✅ Prefill/decode split for 0.8B adapter on T4 | ✅ 7B judge "one forward pass" cost (Yosef's question) | Inference-time mechanics | Day 1 |
 | 2–10 | — | — | TBD | Days 2–5 |
 
----
-
-## Final Submission Deadline
-
-**Saturday, 21:00 UTC** — GitHub repo final state + all public artifact URLs.
