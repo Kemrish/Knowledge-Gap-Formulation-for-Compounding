@@ -1,12 +1,5 @@
 # Week 12 — Knowledge Gap Formulation for Compounding
 
-**Author**: Kemeriya
-**Program**: 10 Academy AI Forward-Deployed Engineer Track
-**Week**: 12 of 12
-**Topic spine**: Inference-time mechanics, training/post-training mathematics, evaluation statistics, agent internals, production patterns
-
----
-
 ## What This Week Is
 
 Weeks 0–11 built AI systems. Week 12 audits them. Each day I pair with a colleague, identify one genuine gap in my understanding of the day's topic drawn from my own Week 10/11 artifacts, sharpen it into a research question, research my partner's question, and publish an explainer that closes the gap publicly. Every gap closed must produce a concrete edit to existing portfolio work.
