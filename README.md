@@ -51,7 +51,7 @@ Week-12/
 1. [One Forward Pass: What a Qwen2.5-7B Judge Actually Costs at Inference](https://open.substack.com/pub/kemeriyamajor/p/one-forward-pass-what-a-qwen25-7b?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 1, Inference-time mechanics
 
 ### Tweet Threads
-1. Day 1 — https://www.linkedin.com/feed/update/urn:li:activity:7457145552091299840/
+1. Day 1 — https://www.linkedin.com/feed/update/urn:li:ugcPost:7457311830399602689/
 
 ---
 
