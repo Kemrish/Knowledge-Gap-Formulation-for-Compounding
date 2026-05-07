@@ -12,7 +12,7 @@ Weeks 0–11 built AI systems. Week 12 audits them. Each day I pair with a colle
 |-----|-------|-------------|---------|-----------|--------------|
 | 1 | Inference-time mechanics | [Prefill/decode split for 0.8B ORPO adapter on T4 — does A100 target the right bottleneck?](pair_DAY_1/question.md) | Yosef | [One Forward Pass: What a Qwen2.5-7B Judge Actually Costs at Inference](https://open.substack.com/pub/kemeriyamajor/p/one-forward-pass-what-a-qwen25-7b?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) | [Thread](pair_DAY_1/thread.md) |
 | 2 | Agent and tool-use internals | [JSON-prompting vs tool_use at token level — did my reply classifier's schema prime dual-control stalling?](pair_DAY_2/question.md) | Tsegay Assefa | — | — |
-| 3 | Training and post-training mechanics | [ORPO per-token log-prob averaging — does TRL's length normalization explain why signal_grounding improved +11.8 pts but dual_control regressed −4.5 pts at the same β?](pair_DAY_3/question.md) | Mikias Dagem | — | — |
+| 3 | Training and post-training mechanics | [ORPO per-token log-prob averaging — does TRL's length normalization explain why signal_grounding improved +11.8 pts but dual_control regressed −4.5 pts at the same β?](pair_DAY_3/question.md) | Mikias Dagem | [When Your Eval Loss Lies: Variant-Level Data Leakage in Augmented SFT Datasets](https://open.substack.com/pub/kemeriyamajor/p/when-your-eval-loss-lies-variant?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) | [Thread](https://www.linkedin.com/feed/update/urn:li:share:7458129929784836097/) |
 | 4 | TBD | — | — | — | — |
 | 5 | TBD | — | — | — | — |
 
@@ -49,9 +49,11 @@ Week-12/
 
 ### Blog Posts
 1. [One Forward Pass: What a Qwen2.5-7B Judge Actually Costs at Inference](https://open.substack.com/pub/kemeriyamajor/p/one-forward-pass-what-a-qwen25-7b?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 1, Inference-time mechanics
+2. [When Your Eval Loss Lies: Variant-Level Data Leakage in Augmented SFT Datasets](https://open.substack.com/pub/kemeriyamajor/p/when-your-eval-loss-lies-variant?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 3, Training and post-training mechanics
 
 ### Tweet Threads
 1. Day 1 — https://www.linkedin.com/feed/update/urn:li:ugcPost:7457311830399602689/
+2. Day 3 — https://www.linkedin.com/feed/update/urn:li:share:7458129929784836097/
 
 ---
 

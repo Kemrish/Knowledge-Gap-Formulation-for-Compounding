@@ -68,6 +68,6 @@ Keep the variant-level eval split for monitoring training stability. Use the pro
 
 Full explainer — what variant-level leakage looks like in code, why 0.0213 is a memorization number, and the exact callback structure to log rubric score as a Trainer metric:
 
-[blog post link]
+https://open.substack.com/pub/kemeriyamajor/p/when-your-eval-loss-lies-variant?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 
 Runnable comparison script: `sources/split_comparison.py` in the repo.
