@@ -32,4 +32,5 @@ Removing the field eliminates the role confusion: the model classifies, the poli
 
 ## Blog and Thread URLs
 
-
+- Blog post: [to be added after publishing]
+- Thread: [to be added after publishing]
