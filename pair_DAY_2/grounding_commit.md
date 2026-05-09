@@ -32,5 +32,5 @@ Removing the field eliminates the role confusion: the model classifies, the poli
 
 ## Blog and Thread URLs
 
-- Blog post: [to be added after publishing]
-- Thread: [to be added after publishing]
+- Blog post: https://open.substack.com/pub/kemeriyamajor/p/tool_use-is-not-logit-masking-and?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+- Thread: https://www.linkedin.com/feed/update/urn:li:share:7458827952596811776/

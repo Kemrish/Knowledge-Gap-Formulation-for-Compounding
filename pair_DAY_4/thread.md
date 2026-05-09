@@ -1,5 +1,7 @@
 # LinkedIn Thread — Day 4
 
+https://www.linkedin.com/feed/update/urn:li:share:7458824634835210240/
+
 *Topic: p = 0.71 doesn't mean no improvement — it means your benchmark is too small to see one*
 
 ---
@@ -63,6 +65,6 @@ Write: "p < 0.0005 (0 of 2,000 replicates exceeded the observed delta)" — not 
 
 Full explainer — MDE derivation, the sample size table, CI width explained from first principles, and the exact edits to make in your evaluation report:
 
-[blog post link]
+https://open.substack.com/pub/kemeriyamajor/p/p-071-doesnt-mean-no-improvement?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 
 Runnable calculator: `sources/power_calculator.py` in the repo.

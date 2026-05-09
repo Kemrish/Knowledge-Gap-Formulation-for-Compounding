@@ -11,10 +11,9 @@ Weeks 0–11 built AI systems. Week 12 audits them. Each day I pair with a colle
 | Day | Topic | My Question | Partner | Blog Post | Tweet Thread |
 |-----|-------|-------------|---------|-----------|--------------|
 | 1 | Inference-time mechanics | [Prefill/decode split for 0.8B ORPO adapter on T4 — does A100 target the right bottleneck?](pair_DAY_1/question.md) | Yosef | [One Forward Pass: What a Qwen2.5-7B Judge Actually Costs at Inference](https://open.substack.com/pub/kemeriyamajor/p/one-forward-pass-what-a-qwen25-7b?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) | [Thread](pair_DAY_1/thread.md) |
-| 2 | Agent and tool-use internals | [JSON-prompting vs tool_use at token level — did my reply classifier's schema prime dual-control stalling?](pair_DAY_2/question.md) | Tsegay Assefa | — | — |
+| 2 | Agent and tool-use internals | [JSON-prompting vs tool_use at token level — did my reply classifier's schema prime dual-control stalling?](pair_DAY_2/question.md) | Tsegay Assefa | [tool_use Is Not Logit Masking — And That Changes How You Build Safe Agent Loops](https://open.substack.com/pub/kemeriyamajor/p/tool_use-is-not-logit-masking-and?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) | [Thread](https://www.linkedin.com/feed/update/urn:li:share:7458827952596811776/) |
 | 3 | Training and post-training mechanics | [ORPO per-token log-prob averaging — does TRL's length normalization explain why signal_grounding improved +11.8 pts but dual_control regressed −4.5 pts at the same β?](pair_DAY_3/question.md) | Mikias Dagem | [When Your Eval Loss Lies: Variant-Level Data Leakage in Augmented SFT Datasets](https://open.substack.com/pub/kemeriyamajor/p/when-your-eval-loss-lies-variant?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) | [Thread](https://www.linkedin.com/feed/update/urn:li:share:7458129929784836097/) |
-| 4 | Evaluation and statistics | [Binary benchmark power analysis — MDE for 216 tasks, v0.2 sample size targets, and correcting p=0.0 bootstrap reporting](pair_DAY_4/question.md) | Beamlak | — | — |
-| 5 | TBD | — | — | — | — |
+| 4 | Evaluation and statistics | [Binary benchmark power analysis — MDE for 216 tasks, v0.2 sample size targets, and correcting p=0.0 bootstrap reporting](pair_DAY_4/question.md) | Beamlak | [p = 0.71 Doesn't Mean No Improvement — It Means You Can't See One Yet](https://open.substack.com/pub/kemeriyamajor/p/p-071-doesnt-mean-no-improvement?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) | [Thread](https://www.linkedin.com/feed/update/urn:li:share:7458824634835210240/) |
 
 ---
 
@@ -36,11 +35,10 @@ Week-12/
 │       └── flops_calculator.py      ← runnable prefill/decode cost calculator
 ├── pair_DAY_2/                      ← Day 2 deliverables (Agent and tool-use internals)
 ├── pair_DAY_3/                      ← Day 3 deliverables (Training and post-training mechanics)
-├── pair_DAY_4/                      ← (to be added)
-├── pair_DAY_5/                      ← (to be added)
-├── synthesis.md                     ← (final submission: 10 gaps closed)
-├── canonical_list.md                ← (final submission: annotated reading list)
-└── portfolio_update.md              ← (final submission: hiring-manager summary)
+├── pair_DAY_4/                      ← Day 4 deliverables (Evaluation and statistics)
+├── synthesis.md                     ← final submission: 8 gaps closed
+├── canonical_list.md                ← final submission: 10 annotated sources
+└── portfolio_update.md              ← final submission: hiring-manager summary
 ```
 
 ---
@@ -49,12 +47,15 @@ Week-12/
 
 ### Blog Posts
 1. [One Forward Pass: What a Qwen2.5-7B Judge Actually Costs at Inference](https://open.substack.com/pub/kemeriyamajor/p/one-forward-pass-what-a-qwen25-7b?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 1, Inference-time mechanics
-2. [When Your Eval Loss Lies: Variant-Level Data Leakage in Augmented SFT Datasets](https://open.substack.com/pub/kemeriyamajor/p/when-your-eval-loss-lies-variant?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 3, Training and post-training mechanics
+2. [tool_use Is Not Logit Masking — And That Changes How You Build Safe Agent Loops](https://open.substack.com/pub/kemeriyamajor/p/tool_use-is-not-logit-masking-and?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 2, Agent and tool-use internals
+3. [When Your Eval Loss Lies: Variant-Level Data Leakage in Augmented SFT Datasets](https://open.substack.com/pub/kemeriyamajor/p/when-your-eval-loss-lies-variant?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 3, Training and post-training mechanics
+4. [p = 0.71 Doesn't Mean No Improvement — It Means You Can't See One Yet](https://open.substack.com/pub/kemeriyamajor/p/p-071-doesnt-mean-no-improvement?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) — Day 4, Evaluation and statistics
 
 ### Tweet Threads
 1. Day 1 — https://www.linkedin.com/feed/update/urn:li:ugcPost:7457311830399602689/
-2. Day 3 — https://www.linkedin.com/feed/update/urn:li:share:7458129929784836097/
-
+2. Day 2 — https://www.linkedin.com/feed/update/urn:li:share:7458827952596811776/
+3. Day 3 — https://www.linkedin.com/feed/update/urn:li:share:7458129929784836097/
+4. Day 4 — https://www.linkedin.com/feed/update/urn:li:share:7458824634835210240/
 ---
 
 ## Portfolio Edits Made (Grounding Commits)
@@ -74,7 +75,6 @@ Week-12/
 |---|---------|-------------|-------|--------|
 | 1 | ✅ Prefill/decode split for 0.8B adapter on T4 | ✅ 7B judge "one forward pass" cost (Yosef's question) | Inference-time mechanics | Day 1 |
 | 2 | ✅ JSON-prompting vs tool_use schema design caused dual-control stalling | ✅ tool_use token-level mechanism (Tsegay's question) | Agent and tool-use internals | Day 2 | 
-| 3 | ✅ ORPO per-token log-prob averaging — TRL length normalization as cause of dual-control gradient dilution | ✅ Partner's question (TBD) | Training and post-training mechanics | Day 3 |
-| 4 | ✅ 216-task benchmark underpowered — MDE ~12 pts, need ~1,200+ tasks for 5-pt sensitivity | ✅ Beamlak's question (TBD) | Evaluation and statistics | Day 4 |
-| 5–10 | — | — | TBD | Day 5 |
+| 3 | ✅ ORPO per-token log-prob averaging — TRL length normalization as cause of dual-control gradient dilution | ✅ Variant-level data leakage in augmented SFT datasets (Mikias's question) | Training and post-training mechanics | Day 3 |
+| 4 | ✅ 216-task benchmark underpowered — MDE ~12 pts, need ~1,100+ tasks for 5-pt sensitivity | ✅ Bootstrap p-value bounds + two-proportion power analysis (Beamlak's question) | Evaluation and statistics | Day 4 |
 

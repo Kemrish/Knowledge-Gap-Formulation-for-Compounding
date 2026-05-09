@@ -3,7 +3,7 @@
 **Asker**: Kemeriya
 **Question**: Does TRL's per-token log-probability averaging in ORPO explain why signal_grounding improved +11.8 pts but dual_control regressed −4.5 pts — because dual-control pairs share identical reasoning traces and differ only in the final routing token, diluting the gradient signal by ~100×?
 
-**Gap closure judgment**: [x] Closed
+**Gap closure judgment**: ✅ Closed
 
 ---
 

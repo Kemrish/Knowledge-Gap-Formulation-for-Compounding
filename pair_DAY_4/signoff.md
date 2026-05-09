@@ -3,7 +3,7 @@
 **Asker**: Kemeriya
 **Question**: With 216 binary pass/fail tasks, what is the minimum detectable effect at 80% power — and does p = 0.71 mean no improvement or underpowered benchmark?
 
-**Gap closure judgment**: [x] Closed
+**Gap closure judgment**: ✅ Closed
 
 ---
 

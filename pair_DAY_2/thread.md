@@ -72,5 +72,6 @@ Code: sources/tool_use_comparison.py in the repo.
 
 Full explainer with code walkthrough, XML injection format, and when to use outlines for true logit masking on self-hosted models:
 
+https://open.substack.com/pub/kemeriyamajor/p/tool_use-is-not-logit-masking-and?r=2xdj7z&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
 
 Sources: Anthropic tool use docs + Willard & Louf (2023) Efficient Guided Generation.
